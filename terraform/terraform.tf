@@ -1,7 +1,7 @@
 terraform {
   required_version = "~> 1.0"
   backend "s3" {
-    bucket = "my-terraform-state-unique-123"
+    bucket = "ziad-terraform-project"
     key    = "iac-actions/state.tfstate"
     region = "us-east-1"
   }
